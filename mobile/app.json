@@ -13,8 +13,16 @@
       }
     },
     "plugins": [
-      ["expo-build-properties", { "android": { "usesCleartextTraffic": true } }]
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true,
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
     ],
-    "extra": { "apiUrl": "http://GANTI-DENGAN-URL-SERVER-ANDA:3000" }
+    "extra": { "apiUrl": "https://GANTI-DENGAN-URL-SERVER-ANDA" }
   }
 }
