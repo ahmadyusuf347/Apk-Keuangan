@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Catatan Keuangan",
+    "slug": "catatan-keuangan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.keuangan.catatan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6192FC"
+      }
+    },
+    "plugins": [
+      ["expo-build-properties", { "android": { "usesCleartextTraffic": true } }]
+    ],
+    "extra": { "apiUrl": "http://GANTI-DENGAN-URL-SERVER-ANDA:3000" }
+  }
+}
